@@ -1,0 +1,13 @@
+program desc:
+    使用python获取apollo 配置中心项目命名空间下的配置项，并通过flask提供api服务。
+    用于学习熟悉python。
+program technology:
+    flask
+    docker:
+          docker build -t get-apollo-cfg .
+          docker login 10.4.*.* -u admin -p Harbor12345
+          docker tag get-apollo-cfg  10.4.*.*/get-apollo-cfg/get-apollo-cfg:v1;
+          docker push 10.4.10.14/get-apollo-cfg/get-apollo-cfg:v1;
+          docker run --name get-apollo-cfg -p 8009:5000 --restart=always --privileged=true \
+            --env apolloip=10.7.7.22 --env apolloport=8001 \
+            -d 10.4.10.14/get-apollo-cfg/get-apollo-cfg:v1
