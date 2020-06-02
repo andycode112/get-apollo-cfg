@@ -2,6 +2,9 @@ program desc:
     使用python获取apollo 配置中心项目命名空间下的配置项，并通过flask提供api服务。
     用于学习熟悉python。
 program technology:
+    python:
+          pip freeze > requirements.txt # Output installed packages in requirements format.
+          pyinstaller -D .\main.spec .\main.py -name=get-apollo-cfg # 编译打包
     flask
     docker:
           docker build -t get-apollo-cfg .
