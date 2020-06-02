@@ -1,10 +1,10 @@
 '''
-@Author: your name
+@Author: andycode112
 @Date: 2020-06-02 10:22:10
-@LastEditTime: 2020-06-02 14:51:46
+@LastEditTime: 2020-06-02 21:55:33
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
-@FilePath: \python\apollogetcfgapi\main.py
+@FilePath: \python\get-apollo-cfg\main.py
 '''
 import flask
 from flask import request

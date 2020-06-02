@@ -9,7 +9,7 @@ added_files = [
          ]
 
 a = Analysis(['main.py'],
-             pathex=['F:\\myTrialProjects\\python\\get-apollo-cfg'],
+             pathex=['.\\get-apollo-cfg'],
              binaries=[],
              datas=added_files,
              hiddenimports=[],
