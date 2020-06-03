@@ -11,5 +11,5 @@ EXPOSE 5000
 # Define environment variable
 ENV apolloip 10.7.7.22
 ENV apolloport 8001
-# Run app.py when the container launches
+# Run main.py when the container launches
 CMD ["python", "main.py"]
