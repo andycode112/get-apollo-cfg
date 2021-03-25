@@ -55,7 +55,7 @@ pyparsing==2.4.0
 pyppeteer==0.0.25
 python-dateutil==2.8.0
 pywin32-ctypes==0.2.0
-PyYAML==5.3.1
+PyYAML==5.4
 queuelib==1.5.0
 requests==2.22.0
 Scrapy==2.1.0
